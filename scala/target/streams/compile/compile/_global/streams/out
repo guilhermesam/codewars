@@ -1,6 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E050] Type Error: /home/wabbajack/Dev/codewars/scala/src/main/scala/SquareSum.scala:6:13 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m6 |[0m      [33mreturn[0m Int(xs.map(pow(_, [31m2[0m)).reduce(([36mx[0m, [36my[0m) => x + y))[0m
-[0m[[0m[31merror[0m] [0m[0m  |             [31m^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m  |             [33mobject[0m [35mInt[0m in [33mpackage[0m [35mscala[0m does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/wabbajack/Dev/codewars/scala/src/main/scala/Main.scala:4:10 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m4 |[0m  println(ConvertToBoolean.boolToWord([31mtrue[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m  |          [31m^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |          Not found: ConvertToBoolean[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
