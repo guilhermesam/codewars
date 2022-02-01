@@ -7,11 +7,23 @@ package codewars {
     }
 
     def numberOfPeopleInBus(busStops: List[(Int, Int)]): Int = {
+      /*
+      * best solution:
+      busStops.map{case (on, off) => on - off}.sum
+      * */
       busStops.map(people => people._1).sum - busStops.map(people => people._2).sum
     }
 
     def pillars(number: Int, distance: Int, width: Int): Int = {
       if (number == 1) 0 else (distance * 100) * (number - 1) + width * (number - 2)
+    }
+
+    /*
+    * best solution:
+    this solution is good enough :D
+    * */
+    def smallEnough(n: Seq[Int], l: Int): Boolean = {
+      !n.exists(_ > l)
     }
 
     def squareSum(xs: List[Int]): Int = {
