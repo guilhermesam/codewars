@@ -1,8 +1,8 @@
-## sbt project compiled with Scala 3
+# Katas 
+## Pillars
+There are pillars near the road. The distance between the pillars is the same and the width of the pillars is the same. Your function accepts three arguments:
 
-### Usage
-
-This is a normal sbt project. You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
-
-For more information on the sbt-dotty plugin, see the
-[scala3-example-project](https://github.com/scala/scala3-example-project/blob/main/README.md).
+number of pillars (≥ 1);
+distance between pillars (10 - 30 meters);
+width of the pillar (10 - 50 centimeters).
+Calculate the distance between the first and the last pillar in centimeters (without the width of the first and last pillar).
