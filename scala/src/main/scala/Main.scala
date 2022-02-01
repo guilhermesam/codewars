@@ -1,4 +1,4 @@
 import codewars.Kata
 
-@main def hello: Unit = 
-  println("Test here!")
+@main def main(): Unit =
+  println(Kata.pillars(1, 10, 10))
