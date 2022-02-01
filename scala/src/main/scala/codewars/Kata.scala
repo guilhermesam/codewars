@@ -9,5 +9,9 @@ package codewars {
     def boolToWord(boolean: Boolean): String = {
       if (boolean) "Yes" else "No"
     }
+
+    def pillars(number: Int, distance: Int, width: Int): Int = {
+      if (number == 1) 0 else (distance * 100) * (number - 1) + width * (number - 2)
+    }
   }
 }
