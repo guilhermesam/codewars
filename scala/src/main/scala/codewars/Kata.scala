@@ -6,6 +6,10 @@ package codewars {
       if (boolean) "Yes" else "No"
     }
 
+    def numberOfPeopleInBus(busStops: List[(Int, Int)]): Int = {
+      busStops.map(people => people._1).sum - busStops.map(people => people._2).sum
+    }
+
     def pillars(number: Int, distance: Int, width: Int): Int = {
       if (number == 1) 0 else (distance * 100) * (number - 1) + width * (number - 2)
     }
